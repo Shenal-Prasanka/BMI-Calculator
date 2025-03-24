@@ -1,0 +1,133 @@
+*{  
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    display: grid;
+    place-items: center;    /* Center horizontally and vertically */
+    height: 100vh;          /* Full viewport height */
+    margin: 0;
+    background: rgba(0, 0, 0, 0.4) url(../img/ss.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+a{
+    text-decoration: none;
+}
+
+.main nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: green;
+    height: 40px;
+    z-index: 10;
+   
+}
+
+.main nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;       /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the nav items horizontally */
+    align-items: center; /* Center the nav items vertically */
+    height: 100%;
+}
+
+.main nav ul li {
+    margin: 0 80px; /* Add spacing between items */
+    text-transform: uppercase;
+}
+
+.main nav ul li a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+}
+
+.main nav ul li a:hover {
+    color: darkorange;
+}
+
+.sel {
+    background-color: beige;
+    width: 330px;
+    height: 230px;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    border-radius: 30px;
+}
+.sel h2{
+    margin-left: 70px;
+    color: rgb(71, 9, 241);
+    
+}
+.fo{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fo input{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+}
+.fo button{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 30px;
+    color: azure;
+    background-color: rgb(218, 40, 40);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.fo button:hover{
+    background-color: rgb(54, 247, 253);
+    color: black;
+}
+.val{
+    margin-left: 50px;
+}
+.abo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.abo h2{
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+.abo p{
+    color: white;
+}
+
+.sel ul{
+    list-style: none;
+    background-color: rgb(247, 248, 248);
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    
+}
+.sel ul li{
+    text-align: center;
+    
+}
+#li1,#li2{
+    font-weight: bold;
+}
+
+button{
+    margin-top: 30px;
+    width: 120px;
+    height: 25px;
+}
+button:hover{
+    background-color: rgb(228, 227, 160);
+    
+}
+
